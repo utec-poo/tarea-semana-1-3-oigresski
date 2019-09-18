@@ -6,9 +6,9 @@ int main(){
     char letra;
     int numero;
     int x;    
-    cout<<"diga letra:";
+    cout<<"letra:";
     cin>>letra;
-    cout<<"diga numero:";
+    cout<<"numero:";
     cin>>numero;
     x=numero%2;
    
