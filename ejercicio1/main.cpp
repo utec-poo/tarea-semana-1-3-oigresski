@@ -1,14 +1,16 @@
 #include <iostream>
-#include "Tipos.h"
 using namespace std;
-
+typedef int entero;
 int main() {
 
-entero base=0, entero altura=0;
-cout << "\ningrese la base:";
+entero base=0,altura=0, area =0;
+cout << "\ningrese la base: ";
 cin >> base;
-cout << "\ningrese la altura:";
+cout << "\ningrese la altura: ";
 cin >> altura;
+area = base*altura;
+cout << "el area es: " << area;
+
 
 
 // ToDO
