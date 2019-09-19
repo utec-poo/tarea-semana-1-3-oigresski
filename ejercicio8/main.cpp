@@ -1,15 +1,22 @@
 #include <iostream>
-#include "Tipos.h"
 using namespace std;
+int main (){
 
-int main() {
 
-entero numero;
+int i;
+	int n;
+	int valor;
+ 
+ 
+	cout<<"introduzca valor (1-30)"<<endl;
+	cin>>valor;
+	cout<<endl;
+ 
+	for(i=1;i<=valor;i++){
+		for(n=1;i>=n;n++)
+			 cout<<"*";
+			cout<<"\n";
 
-cout << "\ningrese el numero:";
-cin >> numero;
-
-// ToDO
-// implemente el algoritmo.
-  return 0;
+	}
+ 
 }
